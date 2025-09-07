@@ -11,7 +11,7 @@ public class conn {
 
     public conn() {
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "passkey");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "yourpassword");
             statement = connection.createStatement();
         }
         catch (Exception e) {
